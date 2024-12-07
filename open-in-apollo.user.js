@@ -9,7 +9,7 @@
 // ==/UserScript==
 function openInApollo() {
 	const regexRedditIDs = /^(?:https?:\/\/)?(?:(?:www|amp|m|i)\.)?(?:(?:reddit\.com))\/r\/(\w+)(?:\/comments\/(\w+)(?:\/\w+\/(\w+)(?:\/?.*?[?&]context=(\d+))?)?)?/i;
-  	const match = window.location.href.match(regexRedditIDs);
+  const match = window.location.href.match(regexRedditIDs);
 	
 	if (window.location.pathname === '/' || window.location.pathname === '/?feed=home') {
 		window.location.href = `apollo://`
@@ -19,11 +19,21 @@ function openInApollo() {
 	if (window.location.pathname.includes('/search')){
 		return;
 	}
-	
+
 	if (match) {
-		window.location.href = `apollo://${window.location.hostname}${window.location.pathname}`
+		const newRegex = /\/new.*/
+		const endsInNew = newRegex.test(window.location.pathname);
+		
+		if (endsInNew) {
+			newPath = window.location.pathname.slice(0, -4);
+			window.location.href = `apollo://${window.location.hostname}${newPath}`;
+			return;
+		}
+		window.location.href = `apollo://${window.location.hostname}${window.location.pathname}`;
 	}
+	
 }
 
 openInApollo();
+
 
