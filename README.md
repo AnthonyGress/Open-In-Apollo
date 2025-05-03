@@ -20,7 +20,7 @@ This can be installed and used alongside the main script.
 1. Install the free open source app [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887)  
 2. Launch the app and choose path for scripts  
 3. Enable userscripts on your iPhone in Settings > Safari > Extensions and allow access to sites
-4. On iPhone/iPad tap to see the open the code: [Open In Apollo Userscript][OpenInApollo] and optionally [Open In Apollo (search integration) Userscript][OpenInApolloSearch]
+4. On iPhone/iPad tap to see the code: [Open In Apollo Userscript][OpenInApollo] and optionally [Open In Apollo (search integration) Userscript][OpenInApolloSearch]
 5. Tap Aa in safari and Tap Userscripts  
 6. Install the detected Userscript.  
 
