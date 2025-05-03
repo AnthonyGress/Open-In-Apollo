@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Open Apollo App
-// @version      1.0.3
+// @version      1.0.4
 // @author       AnthonyGress
 // @match        *://*.reddit.com/*
 // @downloadURL  https://gist.github.com/AnthonyGress/c04327abc6ff3bc45871468743f00341/raw/open-in-apollo.user.js
