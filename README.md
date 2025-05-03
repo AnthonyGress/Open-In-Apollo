@@ -2,25 +2,19 @@
 
 A userscript to open Reddit links in the Apollo app on iPhone. Works with sideloaded apollo as well.
 
+Enhanced search engine integration so Reddit links on search result pages (Google, Bing, etc.) open directly in Apollo without redirecting to Reddit first.
+
 ## Downloads
 Safari extension to run user script (free): https://apps.apple.com/us/app/userscripts/id1463298887  
   
 Userscript code: [Open In Apollo Userscript][OpenInApollo]
-
-### Enhanced search integration
-
-Userscript code for enhanced search integration: [Open In Apollo (search integration) Userscript][OpenInApolloSearch]
-
-This rewrites Reddit links on Safari search engine result pages (Google, Bing, etc.) to open directly in Apollo, without redirecting to reddit.com first.
-
-This can be installed and used alongside the main script.
 
 ## How to install
 
 1. Install the free open source app [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887)  
 2. Launch the app and choose path for scripts  
 3. Enable userscripts on your iPhone in Settings > Safari > Extensions and allow access to sites
-4. On iPhone/iPad tap to see the code: [Open In Apollo Userscript][OpenInApollo] and optionally [Open In Apollo (search integration) Userscript][OpenInApolloSearch]
+4. On iPhone/iPad tap to see the code: [Open In Apollo Userscript][OpenInApollo]
 5. Tap Aa in safari and Tap Userscripts  
 6. Install the detected Userscript.  
 
@@ -32,4 +26,3 @@ Open any reddit link in Safari, you should see a pop up asking if you want to "O
 Tested on iOS 16.7.2
 
 [OpenInApollo]: https://raw.githubusercontent.com/AnthonyGress/Open-In-Apollo/refs/heads/main/open-in-apollo.user.js
-[OpenInApolloSearch]: https://raw.githubusercontent.com/AnthonyGress/Open-In-Apollo/refs/heads/main/open-in-apollo-search-integration.user.js
