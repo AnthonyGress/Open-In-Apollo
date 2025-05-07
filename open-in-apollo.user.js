@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Open Apollo App
-// @version      1.0.4
+// @version      1.1.0
 // @author       AnthonyGress
 // @match        *://*.reddit.com/*
 // @match        *://*.redditmedia.com/*
