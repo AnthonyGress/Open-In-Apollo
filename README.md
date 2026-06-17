@@ -1,5 +1,8 @@
 # Open-In-Apollo
 
+# Reddit has officially killed Apollo, I have moved to the Free, Open Source app [Hydra](https://apps.apple.com/us/app/hydra-read-upvote-comment/id6478089063)
+## I made [Open In Hydra](https://github.com/xZenLabs/Open-In-Hydra) based on this project, I recommend you switch to this as well
+
 A userscript to open Reddit links in the Apollo app on iPhone. Works with sideloaded apollo as well.
 
 Enhanced search engine integration so Reddit links on search result pages (Google, Bing, etc.) open directly in Apollo without redirecting to Reddit first.
